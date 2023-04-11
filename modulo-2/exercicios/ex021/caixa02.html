@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+            text-align: justify;
+        }
+        header{
+            background-color: chocolate;
+            padding: 10px;
+            border: 2px inset black;
+            margin-bottom: 5px;
+        }
+            header > h1 {
+                box-shadow: inset 2px 3px 10px 2px #00000069;/*box shadow na parte de dentro da caixa --> inset*/
+            }
+        nav{
+            background-color: aquamarine;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.447);
+        }
+        main{
+            background-color: antiquewhite;
+            padding: 10px;
+            border: 2px;
+                border-color: black;
+                    border-style: inset;
+            margin-bottom: 5px;
+        }
+        section{
+            background-color: burlywood;
+            padding: 10px;
+            border: 2px inset black;
+            margin-bottom: 5px;
+            border-radius: 10px;
+        }
+        article{
+            background-color: cornsilk;
+            padding: 10px;
+            border: 2px inset black;
+            margin-bottom: 5px;
+            border-radius: 10px 40px;/*duas bordas com um valor e duas com outro*/
+            /*border-radius: 10px 20px 30px 40px; --> para bordas individualmente 
+            border-radius: 10px; --> um valor representa todas*/ 
+        }
+        footer{
+            background-color: dimgrey;
+            border: 2px inset black;
+            margin-bottom: 20px;
+        }
+            footer > p{
+                text-align: center;
+                color: white;
+                font-weight: bold;
+            }
+        aside{
+            padding: 0px 5px;
+            background-color: azure;
+        }
+
+        div#bola{
+            margin: auto;
+            background-color: black;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;   
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cabeçalho</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Conteúdo principal</h2>
+        <section>
+            <h3>Seção 1</h3>
+            <article>
+                <h4>Artigo 1 da seção 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae beatae enim sunt provident, blanditiis quidem nemo alias rem natus quo laudantium iste obcaecati ex voluptates molestiae nostrum, fuga dignissimos velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis labore dicta voluptatem aliquam ullam necessitatibus? Facilis aperiam nisi recusandae, sint fugiat excepturi dolores repellendus asperiores. Laborum ullam tempora cum at.</p>
+            </article>
+            <article>
+                <h4>Artigo 2 da seção 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ea omnis quod aperiam, a eligendi necessitatibus in nobis odit. Earum ratione, modi ab exercitationem ea pariatur. Libero saepe ipsa repellat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, optio! Culpa corrupti officiis dolores nobis quas deleniti nesciunt, modi beatae nam facilis rem in sunt ex, saepe eius ea sed!</p>
+                 <aside>
+                    <h5>Comprementar</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere ea doloribus quae quam repellendus, ipsa non, quasi necessitatibus officia asperiores quisquam commodi cumque repudiandae fuga id soluta cum quaerat et.</p>
+                </aside>
+            </article>
+        </section>
+            
+        <section>
+            <h3>Seção 2</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore qui incidunt modi explicabo eaque exercitationem dolor iusto id? Vitae consectetur sapiente voluptas molestias architecto? Nesciunt ipsa quibusdam blanditiis explicabo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit dolorum autem eum, vero tempore accusantium consectetur dicta est cumque iusto impedit, expedita repellat. Unde explicabo vel debitis sed distinctio natus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam corporis expedita delectus quisquam quasi, voluptatibus non amet rerum, laudantium consectetur error odio exercitationem? At perferendis autem deleniti voluptatibus rerum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad dolore numquam sunt maiores, cupiditate hic error. Dignissimos voluptates hic optio quis veniam maxime, ex eaque praesentium impedit amet perspiciatis suscipit!</p>
+        </section>
+        <aside>
+            <h5>Complementar</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere accusamus dolorem laboriosam voluptates, labore quas voluptatum, possimus quis earum at ad omnis illo eius odio ab doloremque provident quibusdam atque?</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Alberlan Ribeiro</p>
+    </footer>
+
+
+
+    <div id="bola"></div>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+        <p>Para carregar imagens dinâmicas utilizamos a tag &lt;picture&gt; e dentro dela inserimos mais duas tags &lt;source&gt; e &lt;img&gt;. Img vai ser a nossa imagem padrão e para cada padrão de tamanho essa imagem será trocada por outras, por meio de outras fontes através dos source. As imagens de tamanho menores da tag source devem ficar sem pre mais acima e img dever a última na ordem do código.</p>
+        <picture>
+            <source media="(max-width: 700px)" srcset="imagens/p.png" type="image/png">
+            <source media="(max-width: 1000px)" srcset="imagens/m.png" type="image/png">
+            <img src="imagens/g.png" alt="imagem padrão tam G">
+        </picture>
+
+    <h1>Trabalhando com audio</h1>
+        <audio preload="metadata" controls>
+            <source src="midias\505.mp3" type="audio/mpeg">
+        </audio>
+        
+    
+</body>
+</html>

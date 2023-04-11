@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+
+main{
+    background-color: #F2DCBF;
+    border: 2px solid #705737;
+    border-radius: 8px;
+    padding: 8px;
+}
+h2{
+    margin-bottom: 1px;
+    background-color: #EFBB76;
+    width: 85px;
+    border: 1px solid #705737;
+}
+p{
+    margin-top: 4px;
+}
+h1#principal{
+    color: #706659;
+    padding: 1px;
+    margin: 1px;
+}
+.junto{
+    color: #BD935C;
+}
+.separado{
+    color: #705737;
+}
+span.sublinhado{
+    text-decoration: underline;
+}
+.negrito{
+    font-weight: bold;
+}
